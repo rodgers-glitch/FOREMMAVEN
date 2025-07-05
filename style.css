@@ -1,0 +1,16 @@
+#mobile-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+#mobile-nav a:hover {
+  background-color: #1f6feb;  /* blue background on hover */
+  color: #ffffff;             /* white text */
+  border-radius: 6px;
+  text-decoration: none;
+  transform: translateX(5px); /* optional sliding effect */
+}
